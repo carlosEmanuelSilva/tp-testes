@@ -1,0 +1,56 @@
+{
+  "name": "happy_hour",
+  "version": "1.0.0",
+  "description": "Backend routes for a drinking games app.",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "transform": {}
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti5-5104100-happy-hour.git"
+  },
+  "keywords": [
+    "games",
+    "drinking",
+    "friends",
+    "party",
+    "fun"
+  ],
+  "authors": [
+    "Amanda Moura de Souza",
+    "Carlos Emanuel Silva e Melo Oliveira",
+    "Giovanni Bogliolo Sirihal Duarte",
+    "Gustavo Andrade Alves",
+    "Luiz Gustavo Mendes Santos",
+    "Pedro Ramos Vidigal",
+    "Vitor Nunes Calhau"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti5-5104100-happy-hour/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti5-5104100-happy-hour#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.5",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}
